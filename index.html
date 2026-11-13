@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BULBFIGHT – Das Partyspiel, in dem Glühbirnen fliegen</title>
+  <meta name="description" content="BULBFIGHT ist ein albernes First-Person-Partyspiel von El Segfredo, nach einer Idee von Mayz: Strichmännchen werfen sich am Strand mit Glühbirnen ab. Neuigkeiten, erste Bilder und Spielmodi.">
+  <meta name="theme-color" content="#2b2029">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BULBFIGHT – Das Partyspiel, in dem Glühbirnen fliegen">
+  <meta property="og:description" content="Werfen, ausweichen, nicht erwischen lassen. Erste Bilder aus der Demo.">
+  <meta property="og:image" content="https://bulbfight.github.io/img/og-bulbfight.jpg">
+  <meta property="og:url" content="https://bulbfight.github.io/">
+  <link rel="canonical" href="https://bulbfight.github.io/">
+  <meta property="og:locale" content="de_DE">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/LilitaOne-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="bulbfight.css">
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="top" id="top">
+    <div class="wrap">
+      <a href="./" aria-label="BULBFIGHT – nach oben"><img class="mini-logo" src="img/bulbfight-logo.webp" alt="BULBFIGHT" width="1200" height="265"></a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="spielnav">Menü</button>
+      <nav id="spielnav" aria-label="Hauptnavigation">
+        <a href="#spiel">Das Spiel</a>
+        <a href="#modi">Modi</a>
+        <a href="#bilder">Bilder</a>
+        <a href="#news">News</a>
+        <a href="#team">Team</a>
+        <a href="https://elsegfredo.github.io/">Entwickler</a>
+        <a class="pill" href="https://www.instagram.com/bulbfight/" rel="noopener noreferrer" target="_blank">@bulbfight</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <!-- Start -->
+    <section class="hero" aria-labelledby="titel" style="padding:0">
+      <div class="bg">
+        <img src="img/wurf.webp" srcset="img/wurf-800.webp 800w, img/wurf.webp 1600w" sizes="100vw" alt="" width="1600" height="900" fetchpriority="high">
+      </div>
+      <div class="wrap">
+        <h1 id="titel"><img src="img/bulbfight-logo.webp" alt="BULBFIGHT" width="1200" height="265"></h1>
+        <p class="tagline">Das Partyspiel, in dem Glühbirnen fliegen. Werfen, ausweichen, nicht erwischen lassen.</p>
+        <ul class="tags" aria-label="Status">
+          <li class="hot">In Entwicklung</li>
+          <li>First-Person-Partyspiel</li>
+          <li>Multiplayer</li>
+          <li>PC · Steam geplant</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-gold" href="#news">Neuigkeiten</a>
+          <a class="btn btn-dark" href="https://www.instagram.com/bulbfight/" rel="noopener noreferrer" target="_blank">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            Auf Instagram folgen
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Das Spiel -->
+    <section id="spiel" aria-labelledby="spiel-titel">
+      <div class="wrap pitch">
+        <div>
+          <h2 id="spiel-titel">Wirf. Weich aus. Leuchte.</h2>
+          <p>In BULBFIGHT treten Strichmännchen in Teams gegeneinander an, und die Munition sind Glühbirnen. Das Ganze ist simpel, albern und laut: Cartoon-Look, eine sonnige Strand-Insel und Sounds, die selbst mit dem Mund gemacht werden. Im Moment sind es noch Platzhalter.</p>
+          <p>Eine Runde dauert nur ein, zwei Minuten. Genau richtig für „Noch eine!“.</p>
+          <ul class="rules">
+            <li><b>1</b><span>Glühbirne aus dem Säckchen holen und werfen. Drei Stück passen rein, alle 2,5 Sekunden wächst eine nach.</span></li>
+            <li><b>2</b><span>Springen, abrollen, hinter Kisten verstecken oder dich von einer Sprungfeder in die Luft schleudern lassen.</span></li>
+            <li><b>3</b><span>Getroffen? Dann blitzt du kurz auf und bist einen Moment lang benommen. Wer keine Leben mehr hat, schaut von oben zu.</span></li>
+          </ul>
+        </div>
+        <div class="shot">
+          <img src="img/figur.webp" srcset="img/figur-800.webp 800w, img/figur.webp 1600w" sizes="(max-width: 860px) 100vw, 560px" alt="Das Hauptmenü von BULBFIGHT: Links steht eine rote Figur mit einer Glühbirne in der Hand am Strand, rechts lassen sich Name, Farbe, Hut, Gesicht, Spielmodus und Anzahl der Bots einstellen." width="1600" height="900" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="sunset" aria-labelledby="features-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Was drinsteckt</span>
+          <h2 id="features-titel">Kleines Spiel, viel Quatsch</h2>
+          <p>Das ist im aktuellen Demo-Stand schon spielbar.</p>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 6c-7 0-12 5.3-12 11.7 0 4.2 2.2 7 4.2 9.2 1.4 1.5 2.3 3.2 2.3 5V34h11v-2.1c0-1.8.9-3.5 2.3-5 2-2.2 4.2-5 4.2-9.2C36 11.3 31 6 24 6z"/><path d="M19 39h10M21 43h6"/><path d="M40 10l4-3M42 18h4M6 18H2M8 10L4 7"/></svg>
+            <h3>Werfen mit Gefühl</h3>
+            <p>Gut eine Sekunde Pause zwischen zwei Würfen, die Birne fliegt im Bogen und zieht eine Leuchtspur hinter sich her.</p>
+          </article>
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 40h32"/><path d="M14 40c0-4 2-6 4-8M34 40c0-4-2-6-4-8"/><path d="M12 32c4 3 20 3 24 0M12 26c4 3 20 3 24 0"/><path d="M24 20V6M18 12l6-6 6 6"/></svg>
+            <h3>Springen &amp; Ausweichen</h3>
+            <p>Ausweichrolle, Schleichen mit leisen Schritten und vier Sprungfedern, die dich etwa fünf Meter hoch katapultieren.</p>
+          </article>
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M26 4L12 26h10l-4 18 18-24H26l4-16z"/></svg>
+            <h3>Treffer mit Wumms</h3>
+            <p>Ein Treffer gibt einen Stromschlag mit Röntgen-Blitz. Danach bist du kurz gelähmt und ein paar Sekunden immun.</p>
+          </article>
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16h24l-3-9H15z"/><path d="M8 16h32"/><circle cx="24" cy="28" r="10"/><path d="M20 27h.01M28 27h.01"/><path d="M20 32c2 2 6 2 8 0"/></svg>
+            <h3>Deine Figur</h3>
+            <p>Farbe, Hut und Gesicht kannst du selbst wählen: vom Zylinder bis zur Krone. Weitere Kosmetik ist geplant.</p>
+          </article>
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="6" width="32" height="36" rx="4"/><path d="M16 16h16M16 24h16M16 32h9"/></svg>
+            <h3>Statistik-Karten</h3>
+            <p>Nach jeder Runde gibt es Auszeichnungen wie „Meiste Treffer“, „Wurfmaschine“ und natürlich „Größter Angsthase“.</p>
+          </article>
+          <article class="feature">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="6"/><circle cx="32" cy="16" r="6"/><path d="M4 40c0-7 5-12 12-12s12 5 12 12M24 34c1.5-3.6 4.4-6 8-6 7 0 12 5 12 12"/></svg>
+            <h3>Zusammen spielen</h3>
+            <p>Im Moment im gleichen Netzwerk und gegen Bots. Online-Lobbys mit Freunden über Steam sind der nächste große Schritt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modi -->
+    <section id="modi" class="sand" aria-labelledby="modi-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Spielmodi</span>
+          <h2 id="modi-titel">Zwei Modi, null Gnade</h2>
+          <p>Jeder Modus ist ein eigener Regelsatz. Weitere kommen dazu, sobald sie sich gut anfühlen.</p>
+        </div>
+        <div class="modes">
+          <article class="mode">
+            <img src="img/team-blau-800.webp" srcset="img/team-blau-800.webp 800w, img/team-blau.webp 1600w" sizes="(max-width: 820px) 100vw, 580px" alt="Zwei blaue Figuren mit Krone und Zylinder stehen hinter einem gestreiften Windschutz." width="800" height="417" loading="lazy">
+            <div class="body">
+              <h3>Team Deathmatch</h3>
+              <ul class="facts" aria-label="Eckdaten"><li><span class="team-red">Rot</span> gegen <span class="team-blue">Blau</span></li><li>3 Leben</li><li>120 Sekunden</li></ul>
+              <p>Jeder Treffer kostet ein Leben. Das Team, das zuerst komplett raus ist, verliert. Läuft die Zeit ab, gewinnt das Team mit mehr Leben.</p>
+            </div>
+          </article>
+          <article class="mode">
+            <img src="img/treffer-800.webp" srcset="img/treffer-800.webp 800w, img/treffer.webp 1600w" sizes="(max-width: 820px) 100vw, 580px" alt="Eine blaue Figur mit Krone rennt davon, während links eine andere Figur getroffen wird und im Röntgen-Blitz aufleuchtet." width="800" height="417" loading="lazy">
+            <div class="body">
+              <h3>Fangen</h3>
+              <ul class="facts" aria-label="Eckdaten"><li>Ein Fänger</li><li>90 Sekunden</li><li>Birne über dem Kopf</li></ul>
+              <p>Der Fänger hat eine Birne über dem Kopf. Wer getroffen wird, ist der neue Fänger. Wer am Ende noch Fänger ist, hat verloren.</p>
+            </div>
+          </article>
+        </div>
+        <div class="later">
+          <h3>Ideen für später</h3>
+          <p>Darüber denken wir nach. Nichts davon ist versprochen, manches wird sich beim Ausprobieren noch ändern.</p>
+          <ul>
+            <li>Modus „Farben“</li>
+            <li>Geheime Rollen</li>
+            <li>Spezialbirnen</li>
+            <li>Neue Maps: Wald, Mond, Mars</li>
+            <li>Mehr Hüte und Kosmetik</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bilder -->
+    <section id="bilder" aria-labelledby="bilder-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Erste Bilder</span>
+          <h2 id="bilder-titel">So sieht's gerade aus</h2>
+          <p>Aufnahmen aus einer Testrunde mit Bots. Zum Vergrößern antippen.</p>
+        </div>
+        <div class="gallery" id="galerie">
+          <button class="big" data-full="img/wurf.webp" aria-label="Bild vergrößern: Glühbirne im Anflug"><img src="img/wurf-800.webp" alt="Eine Glühbirne fliegt auf eine blaue Figur mit Zylinder zu, daneben liegt ein Wasserball im Sand." width="800" height="450" loading="lazy"></button>
+          <button data-full="img/treffer.webp" aria-label="Bild vergrößern: Treffer"><img src="img/treffer-800.webp" alt="Treffer mit Röntgen-Blitz, im Vordergrund rennt eine blaue Figur mit Krone." width="800" height="417" loading="lazy"></button>
+          <button data-full="img/angriff.webp" aria-label="Bild vergrößern: Angriff"><img src="img/angriff-800.webp" alt="Zwei rote Figuren holen zum Wurf aus." width="800" height="417" loading="lazy"></button>
+          <button data-full="img/team-blau.webp" aria-label="Bild vergrößern: Team Blau"><img src="img/team-blau-800.webp" alt="Zwei blaue Figuren mit Krone und Zylinder hinter einem Windschutz." width="800" height="417" loading="lazy"></button>
+          <button data-full="img/deckung.webp" aria-label="Bild vergrößern: In Deckung"><img src="img/deckung-800.webp" alt="Eine blaue Figur mit Zylinder versteckt sich hinter einer großen Holzkiste." width="800" height="417" loading="lazy"></button>
+          <button class="wide" data-full="img/insel.webp" aria-label="Bild vergrößern: Die Strand-Insel"><img src="img/insel-800.webp" alt="Die Strand-Insel von oben: Kisten, Palmen, Sonnenschirme, ein Holzdeck in der Mitte und ein Zaun am Rand, rundherum das Meer." width="800" height="450" loading="lazy"></button>
+          <button class="wide" data-full="img/ich-ansicht.webp" aria-label="Bild vergrößern: Ich-Ansicht"><img src="img/ich-ansicht-800.webp" alt="Ich-Ansicht: Die eigene Hand hält eine Glühbirne, unten sind Vorrat und Leben zu sehen." width="800" height="450" loading="lazy"></button>
+        </div>
+        <p class="note">Alle Bilder zeigen den Demo-Stand. Grafik, Sound und Oberfläche ändern sich noch.</p>
+      </div>
+      <dialog class="lightbox" id="lightbox" aria-label="Bildansicht">
+        <button class="close" type="button" data-close>Schließen ✕</button>
+        <figure>
+          <img id="lightbox-img" alt="">
+          <figcaption id="lightbox-cap"></figcaption>
+        </figure>
+        <button class="nav-arrow prev" type="button" aria-label="Vorheriges Bild">‹</button>
+        <button class="nav-arrow next" type="button" aria-label="Nächstes Bild">›</button>
+      </dialog>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="sand" aria-labelledby="news-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Ankündigungen</span>
+          <h2 id="news-titel">Neuigkeiten aus der Werkstatt</h2>
+          <p>Was sich zuletzt getan hat, die neuesten Meldungen zuerst.</p>
+        </div>
+        <div class="news">
+          <article class="post featured">
+            <img src="img/insel-800.webp" srcset="img/insel-800.webp 800w, img/insel.webp 1600w" sizes="(max-width: 640px) 100vw, 640px" alt="Die Strand-Insel aus der Vogelperspektive." width="800" height="450" loading="lazy">
+            <div class="body">
+              <p class="meta"><span class="tag">Ankündigung</span><time datetime="2026-11-12">12. November 2026</time></p>
+              <h3>BULBFIGHT zeigt sich zum ersten Mal</h3>
+              <p>Hier gibt es ab jetzt die Neuigkeiten zum Spiel und erste Bilder aus der Demo. Auf Instagram unter <a href="https://www.instagram.com/bulbfight/" rel="noopener noreferrer" target="_blank">@bulbfight</a> laufen das Intro und kurze Spielszenen. Das Spiel ist noch früh in der Entwicklung, aber zu früh zum Zeigen ist es nicht.</p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="img/ich-ansicht-800.webp" alt="Ich-Ansicht mit der neuen Wurfhand." width="800" height="450" loading="lazy">
+            <div class="body">
+              <p class="meta"><span class="tag">Update</span><time datetime="2026-11-12">12. Nov. 2026</time></p>
+              <h3>Neue Wurfhand</h3>
+              <p>Eine geschlossene Faust hält die Birne jetzt unten am Sockel. Das Glas bleibt frei, auch in der Ich-Ansicht.</p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="img/angriff-800.webp" alt="Zwei rote Figuren beim Wurf." width="800" height="417" loading="lazy">
+            <div class="body">
+              <p class="meta"><span class="tag">Vorspann</span><time datetime="2026-11-11">11. Nov. 2026</time></p>
+              <h3>Das Intro steht</h3>
+              <p>Vor jedem Start laufen jetzt die Karten: Idee von Mayz, entwickelt von El Segfredo, Musik von Mayz, eine El Segfredo Production. Dann leuchtet der Titel.</p>
+            </div>
+          </article>
+          <article class="post">
+            <img src="img/team-blau-800.webp" alt="Team Blau hinter einem Windschutz." width="800" height="417" loading="lazy">
+            <div class="body">
+              <p class="meta"><span class="tag">Modus</span><time datetime="2026-11-11">11. Nov. 2026</time></p>
+              <h3>Team Deathmatch ist da</h3>
+              <p>Rot gegen Blau, drei Leben pro Figur, 120 Sekunden. Dazu kamen die Sprungfedern und die Statistik-Karten am Rundenende.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fahrplan -->
+    <section aria-labelledby="plan-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Fahrplan</span>
+          <h2 id="plan-titel">Der Weg zu Steam</h2>
+          <p>So sieht der Plan aus. Termine gibt es erst, wenn sie feststehen.</p>
+        </div>
+        <ol class="road">
+          <li class="now"><span class="now-tag">Jetzt</span><h3>Demo</h3><p>Fangen und Team Deathmatch auf der Strand-Insel, Bots, Spielen im lokalen Netzwerk.</p></li>
+          <li><h3>Spielgefühl &amp; Modi</h3><p>Feintuning an Wurf, Treffer und Bewegung, dazu neue Modi.</p></li>
+          <li><h3>Steam-Anbindung</h3><p>Online-Lobbys, Freunde einladen, Spielersuche.</p></li>
+          <li><h3>Inhalte &amp; Release</h3><p>Weitere Maps, Kosmetik, Steam-Seite und Veröffentlichung.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" aria-labelledby="team-titel">
+      <div class="wrap">
+        <div class="head">
+          <span class="kicker">Credits</span>
+          <h2 id="team-titel">Wer BULBFIGHT macht</h2>
+          <p>Genau so, wie es im Vorspann läuft.</p>
+        </div>
+        <div class="credits">
+          <div class="credit"><div class="logo"><img src="img/mayz-idee.webp" alt="Mayz-Logo mit Glühbirne" width="600" height="575" loading="lazy"></div><p>Eine Idee von Mayz<small><a href="https://www.instagram.com/this.is.mayz/" rel="noopener noreferrer" target="_blank">@this.is.mayz</a></small></p></div>
+          <div class="credit"><div class="logo"><img src="img/el-segfredo-terminal.webp" alt="El-Segfredo-Logo im Terminalfenster" width="900" height="643" loading="lazy"></div><p>Entwickelt von El Segfredo<small><a href="https://elsegfredo.github.io/">el segfredo</a></small></p></div>
+          <div class="credit"><div class="logo"><img src="img/mayz-musik.webp" alt="MAYZ-Schriftzug mit leuchtendem Dreieck als A" width="700" height="229" loading="lazy"></div><p>Musik von Mayz<small>Soundtrack in Arbeit</small></p></div>
+          <div class="credit"><div class="logo"><img src="img/el-segfredo-production.webp" alt="El Segfredo Production" width="1000" height="345" loading="lazy"></div><p>Eine El Segfredo Production<small>Produktion</small></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Folgen -->
+    <section id="folgen" aria-labelledby="folgen-titel">
+      <div class="wrap">
+        <div class="follow">
+          <h2 id="folgen-titel">Nichts verpassen</h2>
+          <p>BULBFIGHT hat jetzt einen eigenen Instagram-Account: Neue Szenen, Bilder und Ankündigungen gibt es dort zuerst. Hinter den Kulissen geht es bei <a href="https://www.instagram.com/elsegfredo/" rel="noopener noreferrer" target="_blank">@elsegfredo</a> weiter. Sobald die Steam-Seite steht, kannst du BULBFIGHT dort auf die Wunschliste setzen.</p>
+          <div class="actions">
+            <a class="btn btn-gold" href="https://www.instagram.com/bulbfight/" rel="noopener noreferrer" target="_blank">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @bulbfight folgen
+            </a>
+            <a class="btn btn-dark" aria-disabled="true" role="link">Steam-Wunschliste folgt</a>
+          </div>
+          <small>Du willst mithelfen, testen oder darüber berichten? <a href="https://elsegfredo.github.io/#zusammenarbeit">Hier geht's zur Zusammenarbeit.</a><br>Links zu Instagram öffnen ein Angebot von Meta. Mehr dazu in der <a href="https://elsegfredo.github.io/datenschutz.html#instagram">Datenschutzerklärung</a>.</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Presse -->
+    <section id="presse" aria-labelledby="presse-titel" style="padding-top:0">
+      <div class="wrap">
+        <div class="head" style="margin-bottom:1.6rem">
+          <span class="kicker">Presse &amp; Creator</span>
+          <h2 id="presse-titel">Du willst über BULBFIGHT berichten?</h2>
+          <p>Ob Artikel, Video oder Stream: Schreib einfach an <a href="mailto:bulbfight@protonmail.com">bulbfight@protonmail.com</a> oder per Instagram-Nachricht. Logos, Bilder und Infos gibt es dann passend für dich.</p>
+        </div>
+        <div class="actions" style="justify-content:center">
+          <a class="btn btn-gold" href="mailto:bulbfight@protonmail.com?subject=Presse%20BULBFIGHT">E-Mail an BULBFIGHT</a>
+          <a class="btn btn-dark" href="https://www.instagram.com/bulbfight/" rel="noopener noreferrer" target="_blank">Nachricht auf Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="by">
+        <span>Ein Spiel von</span>
+        <a href="https://elsegfredo.github.io/" aria-label="El Segfredo"><img src="img/el-segfredo-schriftzug.webp" alt="El Segfredo" width="900" height="130"></a>
+      </div>
+      <nav aria-label="Rechtliches">
+        <a href="https://elsegfredo.github.io/">El Segfredo</a>
+        <a href="https://elsegfredo.github.io/#zusammenarbeit">Mitmachen</a>
+        <a href="https://elsegfredo.github.io/impressum.html">Impressum</a>
+        <a href="https://elsegfredo.github.io/datenschutz.html">Datenschutz</a>
+      </nav>
+      <p class="disclaimer">© 2026 El Segfredo. BULBFIGHT befindet sich in Entwicklung. Alle Inhalte, Bilder und Pläne sind vorläufig und können sich ändern. Steam ist eine Marke der Valve Corporation; diese Seite steht in keiner Verbindung zu Valve.</p>
+    </div>
+  </footer>
+
+  <script src="bulbfight.js" defer></script>
+</body>
+</html>
