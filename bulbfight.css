@@ -153,6 +153,13 @@ section { padding: clamp(3.5rem, 8vw, 6rem) 0; scroll-margin-top: 60px; }
 .map .dyn a { color: #7fe0d0; }
 
 /* Ninja */
+.ninja-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-bottom: 1.4rem; }
+.ninja-shots figure { margin: 0; border-radius: var(--radius); overflow: hidden; position: relative; border: 2px solid rgba(247, 182, 204, .35); }
+.ninja-shots img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.ninja-shots figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.6rem 1rem .7rem; background: linear-gradient(transparent, rgba(31, 22, 38, .9)); font-weight: 600; }
+.ninja-shots .cap-top figcaption { top: 0; bottom: auto; padding: .7rem 1rem 1.6rem; background: linear-gradient(rgba(31, 22, 38, .9), transparent); }
+@media (max-width: 860px) { .ninja-shots { grid-template-columns: 1fr; } }
+.map-strip + .map-strip { margin-top: 1rem; }
 .night { background: radial-gradient(1200px 500px at 70% 0%, #5a3555 0%, transparent 70%), linear-gradient(180deg, #2b2029, #1f1626); }
 .skills { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
 .skill { background: rgba(255, 255, 255, .05); border: 2px solid rgba(247, 182, 204, .35); border-radius: var(--radius); padding: 1.5rem; }
